@@ -1,0 +1,5 @@
+# Send all requests to index.php. Requires mod_rewrite.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^ index.php [L]
+</IfModule>

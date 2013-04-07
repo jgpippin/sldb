@@ -5,7 +5,8 @@
 			"path": "/Users/jeremy/Dropbox/Sites/projects/sldb",
 			"file_exclude_patterns": [
 				"sldb.sublime-workspace",
-				"sldb.sublime-project"
+				"sldb.sublime-project",
+				".gitignore"
 			]
 		}
 	]
