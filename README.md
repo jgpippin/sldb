@@ -16,9 +16,9 @@ You should give your user full privileges to the database you create (at the ver
 
 Let's assume your database details are as follows:
 
-            Database Name: dimwit_sldb
-            Database User: dimwit_sldb
-            Database Pass: sekret
+    Database Name: dimwit_sldb
+    Database User: dimwit_sldb
+    Database Pass: sekret
 
 Okay, you're ready.  Let's move on to...
 
@@ -26,17 +26,17 @@ Okay, you're ready.  Let's move on to...
 
 Unzip the files in the package and open "config.php" in your favorite plain text editor.  For our example:     
 
-            $db_host = 'localhost';  // Localhost is usually fine.
-            $db_user = 'dimwit_sldb';
-            $db_pass = 'sekret';
-            $db_name = 'dimwit_sldb';  // This is the database name.
-            $db_table = 'data';  // The default value here is usually fine.
+    $db_host = 'localhost';  // Localhost is usually fine.
+    $db_user = 'dimwit_sldb';
+    $db_pass = 'sekret';
+    $db_name = 'dimwit_sldb';  // This is the database name.
+    $db_table = 'data';  // The default value here is usually fine.
 
 ### Step 3: Upload the files
 
 Upload the sldb directory to your webserver.  Note the location of this.  For the purposes of this guide, we'll assume it's this:
                 
-                    http://www.example.com/sldb/
+    http://www.example.com/sldb/
 
 You don't have to call the folder sldb, but remember the name of it. 
 
