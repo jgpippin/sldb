@@ -19,15 +19,12 @@ $self = explode('/', $_SERVER['PHP_SELF']);
 $args = array_slice($path, end(array_keys($self)));
 
 // Break apart the path to find the endpoint.
-$path = explode('/', $_SERVER['REQUEST_URI']);
 $action = isset($_REQUEST['action']) ? strtolower($_REQUEST['action']) : strtolower($args[0]);
-
-$fields   = $_REQUEST['fields'];
-$uuid    = isset($_REQUEST['uuid']) ? $_REQUEST['uuid'] : $args[1];
+$uuid   = isset($_REQUEST['uuid']) ? $_REQUEST['uuid'] : $args[1];
+$fields = $_REQUEST['fields'];
 
 // Verbose and reverse can be 'true', 'yes', or 1.
 $verbose = in_array(strtolower($_REQUEST['verbose']), array('yes', 'true', 1));
-$reverse = in_array(strtolower($_REQUEST['reverse']), array('yes', 'true', 1));
 
 // Set defaults for the separators.
 $separators = $_REQUEST['separators'];
