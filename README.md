@@ -26,10 +26,10 @@ Okay, you're ready.  Let's move on to...
 
 Unzip the files in the package and open "config.php" in your favorite plain text editor.  For our example:     
 
-    $db_host = 'localhost';  // Localhost is usually fine.
-    $db_user = 'dimwit_sldb';
-    $db_pass = 'sekret';
-    $db_name = 'dimwit_sldb';  // This is the database name.
+    $db_host  = 'localhost';  // Localhost is usually fine.
+    $db_user  = 'dimwit_sldb';
+    $db_pass  = 'sekret';
+    $db_name  = 'dimwit_sldb';  // This is the database name.
     $db_table = 'data';  // The default value here is usually fine.
 
 ### Step 3: Upload the files
@@ -46,9 +46,7 @@ Typically speaking, this folder should go in the /www/ or /public_html/ folder (
 
 Visit http://www.example.com/sldb/install to install the table on the database. You should get a confirmation.
 
-## Usage
-
-Now that you're all uploaded and stuff, you can store and retrieve data from http://www.example.com/sldb/data.php using llHTTPRequest(). An example script, example.lsl, is included to walk you through using external HTTP request calls to store and read data.
+## Storage
 
 Each record stored has three variables:
 
@@ -63,4 +61,10 @@ For instance, if you were using this to store a user's preferences for prim shoe
      5ff653f6-1044-479c-8482-9049c7b8b79f, laced, no
 
 This is about as flexible a storage solution as I could come up with without getting into your individual needs.  If you need something more flexible, you should write your own script.
+
+## Usage
+
+Now that you're all uploaded and stuff, you can store and retrieve data from http://www.example.com/sldb/data.php using llHTTPRequest(). An example script, example.lsl, is included to walk you through using external HTTP request calls to store and read data.
+
+If you want more specific instructions for a more custom implementation, [visit the wiki](https://github.com/jgpippin/sldb/wiki).
 

@@ -24,10 +24,10 @@
  * db_name:   Database name
  */
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_pass = 'root';
-$db_name = 'sldb';
+$db_host  = 'localhost';
+$db_user  = 'root';
+$db_pass  = 'root';
+$db_name  = 'sldb';
 $db_table = 'data';
 
 
