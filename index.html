@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Sldb by jgpippin</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Sldb</h1>
+        <p>A simple server-side model for SL to MySQL database storage and retrieval.</p>
+
+        <p class="view"><a href="https://github.com/jgpippin/sldb">View the Project on GitHub <small>jgpippin/sldb</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/jgpippin/sldb/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/jgpippin/sldb/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/jgpippin/sldb">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>SLDB: SIMPLE MYSQL STORAGE FOR LSL (version 1.1)</h1>
+
+<h2>Overview</h2>
+
+<p>This set of scripts is designed to run on your own LAMP (Linux, Apache, MySQL, PHP) web server, in order to allow you to easily store and retrieve information from Second Life using the llHTTPRequest() function.  It is designed to allow you to use an off-world MySQL database as persistent storage for Second Life scripts.</p>
+
+<h2>Requirements</h2>
+
+<p>You will need your own PHP hosting account with at least one MySQL database. It is preferable that mod_rewrite be enabled, but not necessary.  Most hosts fit this bill; I use <a href="http://asmallorange.com">A Small Orange</a> or <a href="http://site5.com">Site5</a>.</p>
+
+<h2>Installation</h2>
+
+<h3>Step 1: Create a MySQL database and user</h3>
+
+<p>You'll need to create a MySQL database and a user account to manage that database.  If you're on a cPanel account, this is best accomplished by clicking the "MySQL Database Wizard" icon. Otherwise, follow your hosting service's instructions.</p>
+
+<p>You should give your user full privileges to the database you create (at the very least SELECT, INSERT, UPDATE, and DELETE). Then make a note of the database name, the user name, and the password. </p>
+
+<p>Let's assume your database details are as follows:</p>
+
+<pre><code>Database Name: dimwit_sldb
+Database User: dimwit_sldb
+Database Pass: sekret
+</code></pre>
+
+<p>Okay, you're ready.  Let's move on to...</p>
+
+<h3>Step 2: Edit the config.php file</h3>
+
+<p>Unzip the files in the package and open "config.php" in your favorite plain text editor.  For our example:     </p>
+
+<pre><code>$db_host  = 'localhost';  // Localhost is usually fine.
+$db_user  = 'dimwit_sldb';
+$db_pass  = 'sekret';
+$db_name  = 'dimwit_sldb';  // This is the database name.
+$db_table = 'data';  // The default value here is usually fine.
+</code></pre>
+
+<h3>Step 3: Upload the files</h3>
+
+<p>Upload the sldb directory to your webserver.  Note the location of this.  For the purposes of this guide, we'll assume it's this:</p>
+
+<pre><code>http://www.example.com/sldb/
+</code></pre>
+
+<p>You don't have to call the folder sldb, but remember the name of it. </p>
+
+<p>Typically speaking, this folder should go in the /www/ or /public_html/ folder (different for some hosts).</p>
+
+<h3>Step 4: Install the table</h3>
+
+<p>Visit <a href="http://www.example.com/sldb/install">http://www.example.com/sldb/install</a> to install the table on the database. You should get a confirmation.</p>
+
+<h2>Storage</h2>
+
+<p>Each record stored has three variables:</p>
+
+<ul>
+<li>uuid -   The key variable is generally designed to store data by SL user keys or uuids. </li>
+<li>field - This is an identifier for the data you're storing.</li>
+<li>value - And this is the actual information you want to store.</li>
+</ul><p>For instance, if you were using this to store a user's preferences for prim shoes, you might want to store the following fields: color, size, and laces. Assuming the user has selected an unlaced, size 8, red shoe, you would store these as three separate records:</p>
+
+<pre><code> 5ff653f6-1044-479c-8482-9049c7b8b79f, color, &lt;1,0,0&gt;
+ 5ff653f6-1044-479c-8482-9049c7b8b79f, size, 8
+ 5ff653f6-1044-479c-8482-9049c7b8b79f, laced, no
+</code></pre>
+
+<p>This is about as flexible a storage solution as I could come up with without getting into your individual needs.  If you need something more flexible, you should write your own script.</p>
+
+<h2>Usage</h2>
+
+<p>Now that you're all uploaded and stuff, you can store and retrieve data from using llHTTPRequest(). An example script, example.lsl, is included to walk you through using external HTTP request calls to store and read data.</p>
+
+<p>If you want more specific instructions for a more custom implementation, <a href="https://github.com/jgpippin/sldb/wiki">visit the wiki</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/jgpippin">jgpippin</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
