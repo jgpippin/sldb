@@ -64,7 +64,7 @@ This is about as flexible a storage solution as I could come up with without get
 
 ## Usage
 
-Now that you're all uploaded and stuff, you can store and retrieve data from http://www.example.com/sldb/data.php using llHTTPRequest(). An example script, example.lsl, is included to walk you through using external HTTP request calls to store and read data.
+Now that you're all uploaded and stuff, you can store and retrieve data from using llHTTPRequest(). An example script, example.lsl, is included to walk you through using external HTTP request calls to store and read data.
 
 If you want more specific instructions for a more custom implementation, [visit the wiki](https://github.com/jgpippin/sldb/wiki).
 
