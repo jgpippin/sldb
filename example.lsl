@@ -90,7 +90,7 @@ readData(key uuid, list fields, integer verbose) {
     for (i = 0; i < llGetListLength(fields); i++) {
         args += "&fields[]=" + llEscapeURL(llList2String(fields, i));
     }
-    args += "&separators[]=" . llList2String(separators, 0) . "&separators[]=" . llList2String(separators, 0);
+    args += "&separators[]=" + llList2String(separators, 0) + "&separators[]=" + llList2String(separators, 0);
     read_id = llHTTPRequest(url + "read/" + (string)uuid + "?" + args,[HTTP_METHOD,"GET",HTTP_MIMETYPE,"application/x-www-form-urlencoded"],"");
 }
 
@@ -105,8 +105,12 @@ readData(key uuid, list fields, integer verbose) {
 //   TRUE for a verbose return, otherwise FALSE.
 deleteData(key uuid, list fields, integer verbose) {
     string args;
-    args += "?key="+llEscapeURL(id)+"&action=del&separator="+llEscapeURL(separator);
-    args += "&fields="+llEscapeURL(llDumpList2String(fields,separator))+"&verbose="+(string)verbose;
+    args += "?key=" + llEscapeURL(uuid)+"&action=del&separators[]=" + llList2String(separators, 0);
+    integer i;
+    for (i = 0; i < llGetListLength(fields); i++) {
+        args += "&fields[]=" + llEscapeURL(llList2String(fields, i));
+    }
+    args += "&verbose="+(string)verbose;
     args += "&secret="+llEscapeURL(secret);
     delete_id = llHTTPRequest(url+args,[HTTP_METHOD,"GET",HTTP_MIMETYPE,"application/x-www-form-urlencoded"],"");
 }
@@ -122,7 +126,7 @@ parseResponse(string body) {
     integer i;
     for (i = 0; i < llGetListLength(data); i++) {
         list details = llParseString2List(llList2String(data, i), llList2List(separators, 1, 1), []);
-        doSomething(llList2String(details, 0), llList2String(details, 1);
+        doSomething(llList2String(details, 0), llList2String(details, 1));
     }
 }
 
