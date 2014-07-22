@@ -1,0 +1,1309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mysql_fetch",
+				"mysql_fetch_object"
+			],
+			[
+				"fiel",
+				"field_profile_location_exact"
+			],
+			[
+				"abbre",
+				"timezone_abbreviations_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/index.php",
+			"settings":
+			{
+				"buffer_size": 2017,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sldb.sublime-project",
+			"settings":
+			{
+				"buffer_size": 196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/sldb.php",
+			"settings":
+			{
+				"buffer_size": 4225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/.htaccess",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Files HD/Dropbox/System/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 115.0,
+		"selected_items":
+		[
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"list page",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"PROJECT",
+				"Project: Edit"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"reposit",
+				"Package Control: Add Repository"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"preve",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdo",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"markdow",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"markdow ",
+				"Markdown Preview: preview in Sublime Text"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"Packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"page",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacakge",
+				"Package Control: Disable Package"
+			],
+			[
+				"Add Re",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Contr",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Files HD/Dropbox/System/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/README.md",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/hipster.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/readme.txt",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/test.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/sldb.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/install.php",
+		"/Volumes/Files HD/Dropbox/Sites/projects/sldb/config.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/index.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/config.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/data.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/class.php",
+		"/Users/jeremy/Dropbox/Sites/projects/sldb/sldb.sublime-project",
+		"/Volumes/Files HD/Dropbox/Sites/work/dh/daddyhunt.sublime-project",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/privatemsg/privatemsg_service/privatemsg_service.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/daddyhunt.sublime-project",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/privatemsg/privatemsg_service/privatemsg_service.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/sftp-config.json",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt.query.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_recommendations/includes/daddyhunt_recommendations.query.inc",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_recommendations/includes/daddyhunt_recommendations.services.inc",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_recommendations/daddyhunt_recommendations.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_wingman/daddyhunt_wingman.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_location/daddyhunt_location.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_wingman/includes/daddyhunt_wingman.services.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_location/daddyhunt_location.module",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sftp-config.json",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_age/daddyhunt_age.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_push/daddyhunt_push.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_push/includes/daddyhunt_push.services.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_iap/daddyhunt_iap.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_notifications/daddyhunt_notifications.install",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_userreport/daddyhunt_userreport.module",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_home/includes/daddyhunt_home.views_default.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_banners/themes/daddyhunt_banners_notifications_html.tpl.php",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/daddyhunt/daddyhunt_admin/includes/daddyhunt_admin.admin.inc",
+		"/Users/jeremy/Dropbox/Sites/work/dh/themes/garland/comment.tpl.php",
+		"/Users/jeremy/Dropbox/Sites/work/dh/misc/watchdog-ok.png",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/Users/jeremy/Dropbox/Sites/work/dh/CHANGELOG.txt",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/User/Side Bar.sublime-settings",
+		"/Users/jeremy/Dropbox/Sites/sandbox/notifications/index.php",
+		"/Users/jeremy/Desktop/variable.sql",
+		"/Users/jeremy/Dropbox/Sites/personal/.gitignore",
+		"/Users/jeremy/Desktop/variable",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/User/TidyJSON.sublime-settings",
+		"/Users/jeremy/Library/Caches/TemporaryItems/.contactsavetime",
+		"/Users/jeremy/Downloads/S_W_85186218_20130303.txt",
+		"/Users/jeremy/Desktop/untitled.md",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/Markdown Preview/sample.md",
+		"/Users/jeremy/Dropbox/Sites/work/dh/sites/all/modules/jquery_ui/README.txt",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Volumes/Files HD/Dropbox/Sites/projects/mike-reilly/sites/default/settings.php",
+		"/Applications/MAMP/conf/php5.2.17/php.ini",
+		"/Users/jeremy/Dropbox/System/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jeremy/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"<selection>",
+			"<project>",
+			"",
+			"<project>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n  ",
+			"\n",
+			"retrieve",
+			"\n",
+			"$this->db_table",
+			"$this->db_tabe",
+			"reverse",
+			"<uuid>",
+			"id",
+			"verbose",
+			"# ",
+			"#",
+			"actions",
+			"function privatemsg_service_get_thread_partial",
+			"ctrl_shift",
+			"$fields[",
+			"'column",
+			"$when_args",
+			"function _daddyhunt_recommendations_values",
+			"function daddyhunt_location_populate_cck_location_field",
+			"function daddyhunt_user_profile_node_object",
+			"field_profile_location_current",
+			"exact",
+			"daddyhunt_set_session_location",
+			"field_profile_location_current",
+			"[D2]",
+			"[D1]",
+			"[M2]",
+			"[M1]",
+			"_daddyhunt_timezone",
+			"$timezon",
+			"receipt",
+			"daddyhunt_recommendations",
+			"$recommended",
+			"707",
+			"super+t",
+			"tab",
+			"help",
+			"$conditions",
+			"[M2]",
+			"[D2]",
+			"[D1]",
+			"[M1]",
+			"article",
+			"JOIN",
+			"$points_args",
+			"$point_args",
+			"args",
+			"$input",
+			"dhv2: 30",
+			"dhv2: 20",
+			"[D2]",
+			"[D1]",
+			"[M1]",
+			"[M2]",
+			"[M1]",
+			"[M2]",
+			"[M1]",
+			"1",
+			"%d",
+			"latitude",
+			"pre",
+			"pretty",
+			"latin",
+			"1",
+			"398756",
+			"1",
+			"timezone_offset",
+			"app_version]",
+			"app_version",
+			"timezone_of",
+			"age",
+			"favorites",
+			"LEFT JOIN",
+			"BLOCKED_RID",
+			"user_relations",
+			"flag_content",
+			"*",
+			"%",
+			"photo_",
+			"[D2]",
+			"[D1]",
+			"[M2]",
+			"[M1]",
+			"year = 2013 and (month = [M1] and day >= [D1] and day <= [D2])",
+			" ★",
+			"❏ ",
+			"%",
+			"mynd5",
+			"[D2]",
+			"[D1]",
+			"[M2]",
+			"[M1]",
+			"daddyhunt_composite_profile",
+			"  ",
+			"$exclusions",
+			"%",
+			"$output",
+			"`Longitude`",
+			"`Latitude`",
+			"\".$longitude.\"",
+			"\".$latitude.\"",
+			"cos",
+			"pi",
+			"sin",
+			"acos",
+			"  *  ",
+			"*",
+			"+",
+			"ELSE WHEN",
+			"	",
+			" ",
+			"%",
+			"[D2]",
+			"[D1]",
+			"[M2]",
+			"[M1]",
+			",",
+			",Ï",
+			",",
+			"AS %",
+			"AS *",
+			" -34200",
+			"-36000",
+			"-3600",
+			"Honolulu",
+			" : ",
+			"  : "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"read",
+			"read\n\nread",
+			"\n\nread",
+			"\n\n",
+			"$this->table",
+			"[uuid]",
+			" * ",
+			"",
+			"*",
+			"24",
+			"18",
+			"03",
+			"$profiles",
+			"2",
+			"$trait_values",
+			"03",
+			"17",
+			"11",
+			"03",
+			"download",
+			"$args",
+			"$query",
+			"dhv2: 40",
+			"dhv2: 30",
+			"10",
+			"04",
+			"03",
+			"4373",
+			"c.latitude",
+			"4373",
+			"398756",
+			"4373",
+			"398756",
+			"03",
+			"25",
+			"03",
+			"02",
+			"year = 2013 and ((month = [M1] and day >= [D1]) or (month = [M2] and day <= [D2]))",
+			"",
+			"24",
+			"18",
+			"02",
+			"users",
+			" ",
+			"$profiles",
+			"longitude",
+			"latitude",
+			"%f",
+			" %d ",
+			"COS",
+			"PI",
+			"SIN",
+			"ACOS",
+			" * ",
+			" + ",
+			"WHEN",
+			"+",
+			"10",
+			"04",
+			"02",
+			"",
+			" => ",
+			"  ",
+			" => ",
+			"03",
+			"28",
+			"02",
+			"01",
+			"((month = [M1] and day >= [D1]) OR (month = [M2] and day <= [D2]))",
+			"",
+			"1",
+			"$changes",
+			"+",
+			".",
+			"\n.",
+			"\n",
+			"$profile",
+			"14",
+			"20",
+			"01",
+			"$upper",
+			"$lower",
+			"\", \"",
+			"' => '",
+			"+",
+			"$query",
+			"year = 2013 and ((month = [M1] and day >= [M1] and day <= [M2])",
+			"month = 01 and day >= 07",
+			"07",
+			"13",
+			"01",
+			"ay <= [D2]",
+			"day >= [M1]",
+			"month = [M1]",
+			"month = [M2]",
+			"2013[M2][D2]",
+			"2013[M1][D1]",
+			"01",
+			"2013",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/index.php",
+					"settings":
+					{
+						"buffer_size": 2017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sldb.sublime-project",
+					"settings":
+					{
+						"buffer_size": 196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/sldb.php",
+					"settings":
+					{
+						"buffer_size": 4225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1242,
+								1242
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jeremy/Dropbox/Sites/projects/sldb/.htaccess",
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"rulers":
+							[
+								80.0
+							],
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Volumes/Files HD/Dropbox/System/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								72
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"premium.mo",
+				"modules/daddyhunt/daddyhunt_premium/daddyhunt_premium.module"
+			],
+			[
+				"query.in",
+				"daddyhunt/daddyhunt_recommendations/includes/daddyhunt_recommendations.query.inc"
+			],
+			[
+				"recommon",
+				"daddyhunt/daddyhunt_recommendations/daddyhunt_recommendations.module"
+			],
+			[
+				"wingman",
+				"daddyhunt/daddyhunt_wingman/daddyhunt_wingman.module"
+			],
+			[
+				"wingman.m",
+				"daddyhunt/daddyhunt_wingman/daddyhunt_wingman.module"
+			],
+			[
+				"hunt.m",
+				"daddyhunt/daddyhunt.module"
+			],
+			[
+				"location.mo",
+				"daddyhunt/daddyhunt_location/daddyhunt_location.module"
+			],
+			[
+				"",
+				"daddyhunt/daddyhunt_location/daddyhunt_location.inc"
+			],
+			[
+				"daddyhunt_location",
+				"daddyhunt/daddyhunt_location/daddyhunt_location.inc"
+			],
+			[
+				"notifications.ins",
+				"daddyhunt_notifications/daddyhunt_notifications.install"
+			],
+			[
+				"iap.m",
+				"daddyhunt_iap/daddyhunt_iap.module"
+			],
+			[
+				"daddyhunt.m",
+				"daddyhunt.module"
+			],
+			[
+				"iap.mo",
+				"daddyhunt_iap/daddyhunt_iap.module"
+			],
+			[
+				"userrep",
+				"daddyhunt_userreport/daddyhunt_userreport.module"
+			],
+			[
+				"daddyhunt_iap.ser",
+				"daddyhunt_push/includes/daddyhunt_push.services.inc"
+			],
+			[
+				"push.m",
+				"daddyhunt_push/daddyhunt_push.module"
+			],
+			[
+				"recommendations.mo",
+				"daddyhunt_recommendations/daddyhunt_recommendations.module"
+			],
+			[
+				"reommendations",
+				"daddyhunt_recommendations/includes/daddyhunt_recommendations.services.inc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jeremy/Dropbox/Sites/work/dh/daddyhunt.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 346.0,
+	"status_bar_visible": true
+}

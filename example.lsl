@@ -105,7 +105,7 @@ readData(key uuid, list fields, integer verbose) {
 //   TRUE for a verbose return, otherwise FALSE.
 deleteData(key uuid, list fields, integer verbose) {
     string args;
-    args += "?key=" + llEscapeURL(uuid)+"&action=del&separators[]=" + llList2String(separators, 0);
+    args += "?key=" + llEscapeURL(uuid)+"&action=del";
     integer i;
     for (i = 0; i < llGetListLength(fields); i++) {
         args += "&fields[]=" + llEscapeURL(llList2String(fields, i));
