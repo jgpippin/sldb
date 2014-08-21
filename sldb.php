@@ -55,8 +55,9 @@ class sldbRequest {
    */
   function updateData($uuid, $data, $verbose = FALSE) {
     foreach($data as $key => $value) {
+      $value = addslashes($value);
       $sql = "INSERT INTO " . $this->table . " (uuid, field, value, changed) VALUES ('$uuid', '$key', '$value', UNIX_TIMESTAMP(NOW())) ON DUPLICATE KEY UPDATE value = '$value', changed = UNIX_TIMESTAMP(NOW())";
-      $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error());
+      $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error($this->connection));
       $this->output = array(
         'uuid' => $uuid,
         'fields' => array_keys($data),

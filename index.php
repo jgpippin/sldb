@@ -35,12 +35,12 @@ if ($action != 'install') {
 	// 'true', 'yes', or 1.
 	$uuid   = isset($_REQUEST['uuid']) ? $_REQUEST['uuid'] : $args[1];
 	$fields = $_REQUEST['fields'];
-	$verbose = in_array(strtolower($_REQUEST['verbose']), array('yes', 'true', 1));
 
 	// If no key is provided, or the request is a reverse lookup without fields, or
 	// the request is a put without values, this will fail.
 	if ((empty($uuid) || (empty($fields) && $action != 'read'))) {
-		die("ERROR: INSUFFICIENT ARGUMENTS");
+		header($_SERVER['SERVER_PROTOCOL'] . ' 400 Bad Request', true, 400);
+		exit;
 	}
 
 }
@@ -58,18 +58,18 @@ switch ($action) {
 
 	case 'create':
 	case 'update':
-		$request->updateData($uuid, $fields, $verbose);
+		$request->updateData($uuid, $fields);
 		break;
 
 	case 'read':
-		$request->readData($uuid, $fields, $verbose);
+		$request->readData($uuid, $fields);
 		break;
 
 	case 'delete':
-		$request->deleteData($uuid, $fields, $verbose);
+		$request->deleteData($uuid, $fields);
 		break;
 }
 
-print $request->getOutput($verbose);
+print $request->getOutput();
 
 ?>
