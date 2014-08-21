@@ -27,7 +27,8 @@ if ($action != 'install') {
 
 	// Ensure that the request is authenticated.
 	if ($_REQUEST['secret'] != $secret) {
-		die("ERROR: NOT AUTHENTICATED");
+		header($_SERVER['SERVER_PROTOCOL'] . ' 401 Unauthorized', true, 401);
+		exit;
 	}
 
 	// Extract the UUID and fields from the request. Verbose and reverse can be 

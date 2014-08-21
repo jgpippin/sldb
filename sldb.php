@@ -57,7 +57,11 @@ class sldbRequest {
     foreach($data as $key => $value) {
       $sql = "INSERT INTO " . $this->table . " (uuid, field, value, changed) VALUES ('$uuid', '$key', '$value', UNIX_TIMESTAMP(NOW())) ON DUPLICATE KEY UPDATE value = '$value', changed = UNIX_TIMESTAMP(NOW())";
       $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error());
-      $this->output = $verbose ? "SUCCESS: " . mysqli_affected_rows() : mysqli_affected_rows();
+      $this->output = array(
+        'uuid' => $uuid,
+        'fields' => array_keys($data),
+        'count' => mysqli_affected_rows($this->connection),
+      );
     }
   }
 
@@ -85,8 +89,14 @@ class sldbRequest {
     $sql .= empty($fields) ? '' : " AND field IN (" . implode(', ', (array)$fields) . ")";
 
     $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error());
+    $this->output = array(
+      'uuid' => $uuid,
+      'fields' => $fields,
+      'count' => mysqli_affected_rows($this->connection),
+    );
+
     while($record = mysqli_fetch_assoc($this->result)) {
-      $this->output[$record['field']] = empty($record['value']) ? 'NULL' : $record['value'];
+      $this->output['data'][$record['field']] = empty($record['value']) ? NULL : $record['value'];
     }
   }
 
@@ -112,6 +122,10 @@ class sldbRequest {
     $sql .= empty($fields) ? '' : " AND field IN (" . implode(', ', (array)$fields) . ")";
 
     $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error());
-    $this->output = $verbose ? "SUCCESS: " . mysqli_affected_rows() : mysqli_affected_rows();
+    $this->output = array(
+      'uuid' => $uuid,
+      'fields' => $fields,
+      'count' => mysqli_affected_rows($this->connection),
+    );
   }
 }
