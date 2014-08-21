@@ -69,6 +69,6 @@ switch ($action) {
 		break;
 }
 
-print $request->getOutput();
+print $request->getOutput($verbose);
 
 ?>

@@ -9,6 +9,8 @@ class sldbRequest {
   var $result;
   var $table;
 
+  var $uuid;
+
   function __construct($db_host, $db_user, $db_pass, $db_name, $table) {
     require_once('config.php');
     $this->connection = mysqli_connect($db_host, $db_user, $db_pass) or die ('ERROR: CANNOT CONNECT TO DATABASE.');
@@ -24,8 +26,9 @@ class sldbRequest {
    *   because it was slapped together and never fixed, so the output has to be
    *   a list with a constant separator that can be used to parse it.
    */
-  function getOutput() {
-    return json_encode($this->output);
+  function getOutput($verbose = FALSE) {
+    $output = json_encode($this->output);
+    return $output;
   }
 
 
