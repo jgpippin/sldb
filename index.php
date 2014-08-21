@@ -32,7 +32,7 @@ $separators[0] = empty($separators[0]) ? '&' : $separators[0];
 $separators[1] = empty($separators[1]) ? '=' : $separators[1];
 
 // Check authentication.
-if ($_REQUEST['secret'] != $secret) {
+if ($action != 'install' && $_REQUEST['secret'] != $secret) {
 	die("ERROR: NOT AUTHENTICATED");
 }
 
