@@ -53,7 +53,7 @@ class sldbRequest {
    * @param  boolean $verbose
    *   TRUE for longer output.
    */
-  function updateData($uuid, $data, $verbose = FALSE) {
+  function updateData($uuid, $data) {
     foreach($data as $key => $value) {
       $value = addslashes($value);
       $sql = "INSERT INTO " . $this->table . " (uuid, field, value, changed) VALUES ('$uuid', '$key', '$value', UNIX_TIMESTAMP(NOW())) ON DUPLICATE KEY UPDATE value = '$value', changed = UNIX_TIMESTAMP(NOW())";
@@ -113,7 +113,7 @@ class sldbRequest {
    * @param  boolean $verbose
    *   (optional) TRUE for longer output.
    */
-  function deleteData($uuid, $fields = array(), $verbose = FALSE) {
+  function deleteData($uuid, $fields = array()) {
     $fields = (array)$fields;
     foreach($fields AS $key => $field) {
       $fields[$key] = "'" . $field . "'";
