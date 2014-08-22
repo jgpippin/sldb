@@ -38,17 +38,9 @@
 			<key>inUse</key>
 			<true/>
 			<key>parameter</key>
-			<string>verbose</string>
-			<key>value</key>
-			<string>true</string>
-		</dict>
-		<dict>
-			<key>inUse</key>
-			<true/>
-			<key>parameter</key>
 			<string>secret</string>
 			<key>value</key>
-			<string>Luc1s4w3s0m3</string>
+			<string>0ea9355715138bdaed361a5830c90bff</string>
 		</dict>
 	</array>
 	<key>parametersType</key>

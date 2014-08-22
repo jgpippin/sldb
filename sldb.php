@@ -81,13 +81,13 @@ class sldbRequest {
    *   (optional) A glue string to implode the results. Default is '='.
    */
   function readData($uuid, $fields = array()) {
-    $fields = (array)$fields;
+    $columns = (array)$fields;
     foreach($fields AS $key => $field) {
-      $fields[$key] = "'" . $field . "'";
+      $columns[$key] = "'" . $field . "'";
     }
 
     $sql = "SELECT field, value FROM " . $this->table . " WHERE uuid = '$uuid'";
-    $sql .= empty($fields) ? '' : " AND field IN (" . implode(', ', (array)$fields) . ")";
+    $sql .= empty($fields) ? '' : " AND field IN (" . implode(', ', (array)$columns) . ")";
 
     $this->result = mysqli_query($this->connection, $sql) or die(mysqli_error());
     $this->output = array(

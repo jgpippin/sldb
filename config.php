@@ -32,9 +32,9 @@ $db_table = 'data';
 
 
 /**
- * SECRET PASSPHRASE
+ * SECRET PIN
  *
- * Define a passphrase used in the requests to thwart sneaky people who may try
+ * Define an integer used in the requests to thwart sneaky people who may try
  * to access your data by guessing the address of your sldb.
  *
  * This isn't exactly military-grade security, by the way.  If you're storing
@@ -46,6 +46,6 @@ $db_table = 'data';
  * letters and numbers if you're having trouble.
  */
 
-$secret = "Luc1s4w3s0m3";
+$secret = 1123;
 
 ?>

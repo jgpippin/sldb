@@ -35,21 +35,7 @@ key delete_id;
 string url = "http://www.example.com/sldb";
 
 // This is the secret passphrase defined in your config.php
-string secret = "Luc1s4w3s0m3";
-
-// Select two characters to separate lists. This is only used for the readData
-// function, but is helpful in parsing list strings. Select two separators,
-// because if verbose is set to TRUE you will need two levels of separation. For
-// instance, if the separators are ["&", "="] your (verbose) results will look
-// like this: "field1=value1&field2=value2."
-//
-// And your non-verbose results will look like this: "value1&value2"
-//
-// You may set this to something else if, for instance, you have reason to think
-// that your values may contain either of these characters (which would confuse
-// the list parsing);
-list separators = ["&", "="];
-
+integer secret = 1123;
 
 // *****************************************************************************
 // SLDB FUNCTIONS - There is one custom function for each action (updating data,
@@ -66,7 +52,7 @@ list separators = ["&", "="];
 // @return
 //   Return value
 updateData(key uuid, list fields, list values, integer verbose) {
-    string args = "secret=" + llEscapeURL(secret);
+    string args = "secret=" + llEscapeURL(llMD5String(uuid, secret));
     integer i;
     for (i = 0; i < llGetListLength(fields); i++) {
         args += "&fields[" + llEscapeURL(llList2String(fields, i)) + "]=" + llEscapeURL(llList2String(values, i));
@@ -85,12 +71,11 @@ updateData(key uuid, list fields, list values, integer verbose) {
 //   TRUE for a verbose return ('field_name=field_value'), FALSE for just a list
 //   of values.
 readData(key uuid, list fields, integer verbose) {
-    string args = "secret=" + llEscapeURL(secret);
+    string args = "secret=" + llEscapeURL(llMD5String(uuid, secret));
     integer i;
     for (i = 0; i < llGetListLength(fields); i++) {
         args += "&fields[]=" + llEscapeURL(llList2String(fields, i));
     }
-    args += "&separators[]=" + llList2String(separators, 0) + "&separators[]=" + llList2String(separators, 0);
     read_id = llHTTPRequest(url + "read/" + (string)uuid + "?" + args,[HTTP_METHOD,"GET",HTTP_MIMETYPE,"application/x-www-form-urlencoded"],"");
 }
 
@@ -110,8 +95,7 @@ deleteData(key uuid, list fields, integer verbose) {
     for (i = 0; i < llGetListLength(fields); i++) {
         args += "&fields[]=" + llEscapeURL(llList2String(fields, i));
     }
-    args += "&verbose="+(string)verbose;
-    args += "&secret="+llEscapeURL(secret);
+    args += "&secret="+llEscapeURL(llMD5String(uuid, secret));
     delete_id = llHTTPRequest(url+args,[HTTP_METHOD,"GET",HTTP_MIMETYPE,"application/x-www-form-urlencoded"],"");
 }
 
@@ -120,13 +104,13 @@ deleteData(key uuid, list fields, integer verbose) {
 // @param string body
 //   The body of the response.
 parseResponse(string body) {
+    list fields = llParseString2List(llJsonGetValue(body, ["fields"]), [","], []);
     // Break down all of the values returned and pass each resulting field/value
     // pair combination to a custom function, in this case called doSomething.
-    list data = llParseString2List(body, llList2List(separators, 0, 1), []);
     integer i;
-    for (i = 0; i < llGetListLength(data); i++) {
-        list details = llParseString2List(llList2String(data, i), llList2List(separators, 1, 1), []);
-        doSomething(llList2String(details, 0), llList2String(details, 1));
+    for (i = 0; i < llGetListLength(fields); i++) {
+        string field = llList2String(fields, i);
+        doSomething(field, llJsonGetValue(body, ["data", field]));
     }
 }
 
@@ -198,9 +182,10 @@ default
         }
 
         // If the status isn't 200, then there was a problem connecting to your
-        // server.  Maybe the URL isn't correct, or the server is offline.  Set
-        // the body to the server error so the final result is an accurate
-        // account of what happened.
+        // server.  
+        // 404 File Not Found: The URL isn't correct
+        // 401 Unauthorized: The secret isn't correct
+        // 400 Bad Request: The expected parameters aren't provided.
         if(status != 200) {
             llOwnerSay("ERROR: CANNOT CONNECT TO SERVER");
             return;

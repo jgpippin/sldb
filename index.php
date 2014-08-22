@@ -25,12 +25,6 @@ $action = isset($_REQUEST['action']) ? strtolower($_REQUEST['action']) : strtolo
 // Ensure that non-install requests have all the required fields.
 if ($action != 'install') {
 
-	// Ensure that the request is authenticated.
-	if ($_REQUEST['secret'] != $secret) {
-		header($_SERVER['SERVER_PROTOCOL'] . ' 401 Unauthorized', true, 401);
-		exit;
-	}
-
 	// Extract the UUID and fields from the request. Verbose and reverse can be 
 	// 'true', 'yes', or 1.
 	$uuid   = isset($_REQUEST['uuid']) ? $_REQUEST['uuid'] : $args[1];
@@ -40,6 +34,12 @@ if ($action != 'install') {
 	// the request is a put without values, this will fail.
 	if ((empty($uuid) || (empty($fields) && $action != 'read'))) {
 		header($_SERVER['SERVER_PROTOCOL'] . ' 400 Bad Request', true, 400);
+		exit;
+	}
+
+	// Ensure that the request is authenticated.
+	if ($_REQUEST['secret'] != md5($uuid . ":" . $secret)) {
+		header($_SERVER['SERVER_PROTOCOL'] . ' 401 Unauthorized', true, 401);
 		exit;
 	}
 
